@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bia Hoover</title>
+    <link rel="icon" href="https://biahoover.github.io/whatsapp/©2024 Bianca Hoover..png" type="image/png">
+
+    <style>
+        body {
+            background-image: url('https://biahoover.github.io/whatsapp/©2024 Bianca Hoover..png');
+            background-size: cover;
+            background-position: center;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+        }
+
+        .button {
+            padding: 15px 30px;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+            width: 270px;
+            cursor: pointer;
+            margin-bottom: 20px;
+            color: #fff;
+            display: inline-block;
+        }
+
+        #telegramButton {
+            background-color: #0088cc;
+        }
+
+        #privacyButton {
+            background-color: #ff8c00;
+        }
+
+        .pulse {
+            animation: pulse 1s infinite alternate;
+        }
+
+        @keyframes pulse {
+            from {
+                transform: scale(1);
+            }
+            to {
+                transform: scale(1.05);
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h2 style="margin-top: 90px;">Bia Hoover</h2>
+    <p>Você finalmente encontrou meu chat secreto 😈<br>Estou esperando por você 💖</p>
+
+    <button id="privacyButton" class="button" onclick="showPrivacyMessage()">Privacy</button>
+    <button id="telegramButton" class="button pulse" onclick="redirectToTelegram()">Telegram</button>
+    
+
+    <script>
+        function redirectToTelegram() {
+            // Link fixo para Telegram
+            window.location.href = 'https://t.me/gatinhosvip_bot';
+        }
+
+        function showPrivacyMessage() {
+            alert('Vagas Encerradas. Tente novamente mais tarde');
+        }
+    </script>
+
+</body>
+</html>
